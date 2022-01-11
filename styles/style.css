@@ -1,5 +1,15 @@
-p {
-    color: red;
-    width: 500px;
-    border: 3px solid black;
+html {
+    font-size: 30px;
+    font-family:"caveat", sans-serif;
+    
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
