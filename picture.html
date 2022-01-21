@@ -1,7 +1,8 @@
 <html>
   <head>
     <meta charset="utf-8"
-    name="discription" content="this is a page to show pictures">
+    name="discription" content="this is a page to show pictures
+    "><meta name="viewport" content="width=device-width">
     <link href="styles/style.css" rel="stylesheet">
     <title>Pictures</title>
   </head>
@@ -12,6 +13,17 @@
     <h1>Pictures</h1>
 
     <p>My pictures will go here, when I start taking some.<br>
+      </p>
+    <svg width="300" height="200">
+      <rect width="100%" height="100%" fill="green" />
+    </svg>
     
+    <img 
+    srcset="firstim-480w.jpg 480w,
+    firstim-800w.jpg 800w"
+    sizes="(max-width:600px) 480px,800px"
+    src="images/firstim-800w.jpg" alt="pic i tooken">
+    <strong><a href="index.html">BACK HOME</a></strong>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

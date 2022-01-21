@@ -32,3 +32,5 @@ if(!localStorage.getItem('name')){
 myButton.onclick = function(){
     setUserName();
 }
+
+document.querySelector('html').clientWidth
